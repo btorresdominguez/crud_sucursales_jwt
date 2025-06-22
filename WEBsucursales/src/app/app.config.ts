@@ -1,0 +1,24 @@
+import { ApplicationConfig, importProvidersFrom } from '@angular/core';
+import { provideRouter } from '@angular/router';
+import { routes } from './app.routes';
+import { en_US, provideNzI18n } from 'ng-zorro-antd/i18n';
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
+import { FormsModule } from '@angular/forms';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { JwtInterceptor } from './interceptors/jwt.interceptor'; // Importa el interceptor
+
+registerLocaleData(en);
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideRouter(routes), // Configuración de enrutamiento
+    provideNzI18n(en_US),
+    importProvidersFrom(FormsModule),
+    provideAnimationsAsync(),
+    provideAnimationsAsync(),   
+    provideHttpClient(withInterceptorsFromDi()), 
+    JwtInterceptor  // Proporciona HttpClient con interceptores
+  ]
+};

@@ -1,0 +1,166 @@
+<!-- Botón de Cerrar Sesión -->
+<button nz-button nzType="default" nzDanger (click)="logout()" style="float: right; width: 10%; margin-left: 10px;">
+    ❌ Cerrar Sesión
+</button>
+<h2>Formulario de Sucursales</h2>
+
+<form [formGroup]="form" (ngSubmit)="submit()">
+    <!-- Campo para buscar sucursal -->
+    <nz-form-item>
+        <nz-form-label nzFor="codigoBusqueda" nzRequired>🏷️ Código</nz-form-label>
+        <nz-form-control nzErrorTip="Ingrese código para buscar">
+            <input
+                nz-input
+                formControlName="codigoBusqueda"
+                id="codigoBusqueda"
+                type="text"
+                placeholder="Ingrese código"
+            />
+        </nz-form-control>
+    </nz-form-item>
+
+    <button nz-button type="button" (click)="buscarSucursal()">Buscar Sucursal</button>
+</form>
+
+<!-- Mostrar la lista de sucursales en una tabla -->
+<h3>Lista de Sucursales</h3>
+<nz-table #basicTable [nzData]="sucursales" [nzBordered]="true">
+    <thead>
+        <tr>
+            <th nzWidth="15%">Código</th>
+            <th nzWidth="25%">Descripción</th>
+            <th nzWidth="15%">Dirección</th>
+            <th nzWidth="15%">Identificación</th>
+            <th nzWidth="15%">Fecha Creación</th>
+            <th nzWidth="15%">Moneda</th>
+            <th nzWidth="15%">Estado</th> <!-- Nueva columna para el estado -->
+            <th nzWidth="15%">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let sucursal of sucursales">
+            <td>{{ sucursal.codigo }}</td>
+            <td>{{ sucursal.descripcion }}</td>
+            <td>{{ sucursal.direccion }}</td>
+            <td>{{ sucursal.identificacion }}</td>
+            <td>{{ sucursal.fechaCreacion | date: 'dd/MM/yyyy' }}</td>
+            <td>{{ sucursal.idMoneda }}</td>
+            <td>{{ sucursal.estado ? 'Activo' : 'Inactivo' }}</td> <!-- Mostrar el estado -->
+            <td>
+                <button nz-button (click)="editarSucursal(sucursal)">Editar</button>
+                <button nz-button nzDanger (click)="eliminarSucursalDirecto(sucursal)">Eliminar</button>
+            </td>
+        </tr>
+    </tbody>
+</nz-table>
+
+<!-- Modal de Edición / Creación -->
+<nz-modal
+    [(nzVisible)]="visibleModal"
+    nzTitle="Sucursal"
+    (nzOnCancel)="handleCancel()"
+    (nzOnOk)="guardarCambios()"
+    [nzOkLoading]="saving"
+    [nzOkDisabled]="form.invalid"
+    [nzOkText]="editingSucursalId ? 'Guardar cambios' : 'Crear sucursal'"
+>
+    <div *nzModalContent>
+        <form [formGroup]="form">
+            <nz-form-item>
+                <nz-form-label nzFor="codigo">🏷️ Código</nz-form-label>
+                <nz-form-control>
+                    <input
+                        nz-input
+                        formControlName="codigo"
+                        id="codigo"
+                        type="number"
+                        [readonly]="!!editingSucursalId"
+                        placeholder="Ingrese código"
+                    />
+                </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+                <nz-form-label nzFor="descripcion">📝 Descripción</nz-form-label>
+                <nz-form-control>
+                    <input
+                        nz-input
+                        formControlName="descripcion"
+                        id="descripcion"
+                        placeholder="Ingrese descripción"
+                    />
+                </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+                <nz-form-label nzFor="direccion">📍 Dirección</nz-form-label>
+                <nz-form-control>
+                    <input
+                        nz-input
+                        formControlName="direccion"
+                        id="direccion"
+                        placeholder="Ingrese dirección"
+                    />
+                </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+                <nz-form-label nzFor="identificacion">🆔 Identificación</nz-form-label>
+                <nz-form-control>
+                    <input
+                        nz-input
+                        formControlName="identificacion"
+                        id="identificacion"
+                        placeholder="Ingrese identificación"
+                    />
+                </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+                <nz-form-label nzFor="fechaCreacion">📅 Fecha Creación</nz-form-label>
+                <nz-form-control>
+                    <input
+                        nz-input
+                        type="date"
+                        formControlName="fechaCreacion"
+                        id="fechaCreacion"
+                    />
+                </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+                <nz-form-label nzFor="idMoneda" nzRequired>💲 Moneda</nz-form-label>
+                <nz-form-control nzErrorTip="Selecciona una">
+                    <nz-select formControlName="idMoneda" nzPlaceHolder="Seleccione moneda">
+                        <nz-option *ngFor="let m of monedas" 
+                                   [nzValue]="m.id" 
+                                   [nzLabel]="m.descripcion + ' (' + m.codigo + ')'">
+                        </nz-option>
+                    </nz-select>
+                </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+                <nz-form-label nzFor="estado" nzRequired>🛑 Estado</nz-form-label>
+                <nz-form-control nzErrorTip="Seleccione estado">
+                    <nz-select formControlName="estado" nzPlaceHolder="Seleccione estado">
+                        <nz-option [nzValue]="true" nzLabel="Activo"></nz-option>
+                        <nz-option [nzValue]="false" nzLabel="Inactivo"></nz-option>
+                    </nz-select>
+                </nz-form-control>
+            </nz-form-item>
+        </form>
+
+        <div style="margin-top: 1rem;">
+            <button
+                *ngIf="editingSucursalId"
+                nz-button
+                nzDanger
+                nzType="default"
+                (click)="eliminarSucursal()"
+            >
+                🗑️ Eliminar Sucursal
+            </button>
+        </div>
+    </div>
+</nz-modal>

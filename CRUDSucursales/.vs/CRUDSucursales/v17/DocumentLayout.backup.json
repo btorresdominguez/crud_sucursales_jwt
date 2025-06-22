@@ -1,0 +1,399 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CRUDSucursales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:controllers\\sucursalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\repositories\\sucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:repositories\\sucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\interfaces\\isucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:interfaces\\isucursalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\repositories\\monedarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:repositories\\monedarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\interfaces\\imonedarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:interfaces\\imonedarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\controllers\\monedascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:controllers\\monedascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrador\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\buildTransitive\\netcoreapp2.0\\Microsoft.Bcl.AsyncInterfaces.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\crudsucursales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:crudsucursales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\models\\updatesucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:models\\updatesucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\models\\monedadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:models\\monedadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\models\\createsucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:models\\createsucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|d:\\crudsucursales\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76F75D-A76A-4651-A487-85604A367E23}|CRUDSucursales.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SucursalesController.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Controllers\\SucursalesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SucursalesController.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Controllers\\SucursalesController.cs",
+              "RelativeToolTip": "Controllers\\SucursalesController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAowJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:10:52.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:30:31.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Services\\TokenService.cs*",
+              "RelativeToolTip": "Services\\TokenService.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:58:07.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CRUDSucursales\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\CRUDSucursales\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T15:21:17.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:03:48.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "Controllers\\AuthController.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:34:50.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SucursalRepository.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Repositories\\SucursalRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SucursalRepository.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Repositories\\SucursalRepository.cs",
+              "RelativeToolTip": "Repositories\\SucursalRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:30:46.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISucursalRepository.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Interfaces\\ISucursalRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISucursalRepository.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Interfaces\\ISucursalRepository.cs",
+              "RelativeToolTip": "Interfaces\\ISucursalRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:29:57.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonedaRepository.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Repositories\\MonedaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MonedaRepository.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Repositories\\MonedaRepository.cs",
+              "RelativeToolTip": "Repositories\\MonedaRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:41:37.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMonedaRepository.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Interfaces\\IMonedaRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMonedaRepository.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Interfaces\\IMonedaRepository.cs",
+              "RelativeToolTip": "Interfaces\\IMonedaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:40:39.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MonedasController.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Controllers\\MonedasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MonedasController.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Controllers\\MonedasController.cs",
+              "RelativeToolTip": "Controllers\\MonedasController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T00:17:26.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.Bcl.AsyncInterfaces.targets",
+              "DocumentMoniker": "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\buildTransitive\\netcoreapp2.0\\Microsoft.Bcl.AsyncInterfaces.targets",
+              "ToolTip": "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\buildTransitive\\netcoreapp2.0\\Microsoft.Bcl.AsyncInterfaces.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-21T16:51:43.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:23:55.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateSucursalDto.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Models\\UpdateSucursalDto.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateSucursalDto.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Models\\UpdateSucursalDto.cs",
+              "RelativeToolTip": "Models\\UpdateSucursalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:00:37.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CRUDSucursales",
+              "DocumentMoniker": "D:\\CRUDSucursales\\CRUDSucursales.csproj",
+              "RelativeDocumentMoniker": "CRUDSucursales.csproj",
+              "ToolTip": "D:\\CRUDSucursales\\CRUDSucursales.csproj",
+              "RelativeToolTip": "CRUDSucursales.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-20T15:28:35.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateSucursalDto.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Models\\CreateSucursalDto.cs",
+              "RelativeDocumentMoniker": "Models\\CreateSucursalDto.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Models\\CreateSucursalDto.cs",
+              "RelativeToolTip": "Models\\CreateSucursalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T02:09:44.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Models\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Models\\Sucursal.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Models\\Sucursal.cs",
+              "RelativeToolTip": "Models\\Sucursal.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:32:43.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MonedaDto.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Models\\MonedaDto.cs",
+              "RelativeDocumentMoniker": "Models\\MonedaDto.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Models\\MonedaDto.cs",
+              "RelativeToolTip": "Models\\MonedaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:40:03.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:29:29.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:54:33.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:32:08.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\CRUDSucursales\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDTO.cs",
+              "ToolTip": "D:\\CRUDSucursales\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "Models\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:46:57.859Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

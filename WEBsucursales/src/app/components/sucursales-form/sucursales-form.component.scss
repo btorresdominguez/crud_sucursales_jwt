@@ -1,0 +1,51 @@
+h2 {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio abajo del título */
+    font-size: 24px; /* Tamaño de letra del título */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Fondo claro */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centra horizontalmente */
+}
+
+nz-form-item {
+    width: 100%; /* Que todos los items ocupen el 100% del form */
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 10px; /* Espacio arriba del botón */
+    width: 100%; /* Botón ocupa todo el ancho */
+}
+
+table {
+  margin-left: 15px; // Adjust as necessary
+  margin-right: 15px; // Adjust as necessary
+}
+/* Estilo para la tabla */
+nz-table {
+    margin-top: 20px; /* Espacio arriba de la tabla */
+}
+
+nz-table th, nz-table td {
+    text-align: center; /* Centrar texto en la tabla */
+    border: 1px solid #e0e0e0; /* Líneas de la tabla */
+}
+
+nz-table th {
+    background-color: #f0f0f0; /* Fondo de encabezado de la tabla */
+}
+
+nz-table tbody tr:hover {
+    background-color: #fafafa; /* Color de fondo al pasar el ratón */
+}

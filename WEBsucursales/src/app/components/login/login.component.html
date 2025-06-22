@@ -1,0 +1,18 @@
+<h2>Bienvenido</h2>
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <nz-form-item>
+    <nz-form-label nzFor="username" nzRequired>👤 Usuario</nz-form-label>
+    <nz-form-control nzErrorTip="Ingrese su usuario">
+      <input nz-input formControlName="username" id="username" placeholder="Ingrese su usuario" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label nzFor="password" nzRequired>🔒 Contraseña</nz-form-label>
+    <nz-form-control nzErrorTip="Ingrese contraseña">
+      <input nz-input type="password" formControlName="password" id="password" placeholder="Ingrese su contraseña" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <button nz-button nzType="primary" [disabled]="form.invalid">Ingresar</button>
+</form>
